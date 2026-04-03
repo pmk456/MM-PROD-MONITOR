@@ -1,0 +1,17 @@
+{
+    "HBR Analytics": {
+        "status": "up",
+        "fail_count": 0,
+        "is_mail_sent": false
+    },
+    "AcenAAr Steam Labs": {
+        "status": "up",
+        "fail_count": 0,
+        "is_mail_sent": false
+    },
+    "Ravi PG Management System": {
+        "status": "up",
+        "fail_count": 0,
+        "is_mail_sent": false
+    }
+}
