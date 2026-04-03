@@ -1,0 +1,2 @@
+0 9 * * 1 /home/$USER/MM-PROD-MONITOR/src/venv/bin/python /home/$USER/MM-PROD-MONITOR/src/weekly_report.py
+
