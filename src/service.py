@@ -137,6 +137,10 @@ def main():
             logging.info(f"Checking {name} at {service['url']}...")
             resp = requests.get(service['url'], timeout=10)
             is_up = resp.status_code == 200
+            if is_up:
+                logging.info(f"[+] {name} is up. (Status code: {resp.status_code})")
+            else:
+                logging.error(f"[-] {name} is down (Status code: {resp.status_code})")
         except requests.RequestException:
             logging.error(f"[-] {name} is down (Request failed)")
             is_up = False
