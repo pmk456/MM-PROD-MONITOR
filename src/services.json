@@ -1,0 +1,18 @@
+{
+    "hbr_analytics": {
+        "name": "HBR Analytics",
+        "url": "https://hbranalytics.com/api1/health",
+        "emails": ["patanmusthakheem456@gmail.com"]
+    },
+
+    "acenaar_labs": {
+        "name": "AcenAAr Steam Labs",
+        "url": "https://certificate.acenaarsteamlabs.com/api/health",
+        "emails": ["patanmusthakheem456@gmail.com"]
+    },
+    "pg_mgmt": {
+        "name": "Ravi PG Management System",
+        "url": "https://pg.pmk.codes",
+        "emails": ["patanmusthakheem456@gmail.com"]
+    }
+}
