@@ -11,14 +11,14 @@ import smtplib
 import load_dotenv
 import os
 
-load_dotenv.load_dotenv('/home/$USER/MM-PROD-MONITOR/src/.env')
+load_dotenv.load_dotenv('/home/pmk/MM-PROD-MONITOR/src/.env')
 
-logging.basicConfig(filename='/home/$USER/MM-PROD-MONITOR/src/service_monitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='/home/pmk/MM-PROD-MONITOR/src/service_monitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def load_services():
     try:
-        with open('/home/$USER/MM-PROD-MONITOR/src/services.json', 'r') as f:
+        with open('/home/pmk/MM-PROD-MONITOR/src/services.json', 'r') as f:
             services = json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
         services = {}
@@ -35,7 +35,7 @@ def check_internet():
 
 def load_state():
     try:
-        with open('/home/$USER/MM-PROD-MONITOR/src/state.json', 'r') as f:        
+        with open('/home/pmk/MM-PROD-MONITOR/src/state.json', 'r') as f:        
             state = json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
         state = {}
