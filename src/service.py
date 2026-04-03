@@ -13,7 +13,7 @@ import os
 
 load_dotenv.load_dotenv('/home/$USER/MM-PROD-MONITOR/src/.env')
 
-logging.basicConfig(filename='/home/$USER/MM-PROD-MONITOR/service_monitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='/home/$USER/MM-PROD-MONITOR/src/service_monitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def load_services():
